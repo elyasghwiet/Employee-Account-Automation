@@ -1,0 +1,37 @@
+2026-11-01T12:05:37 | CREATED   | HIRE       | E1001    | eghwiet        | department IT, groups admin-tools, all-staff, it-staff, remote-access
+2026-11-01T12:05:37 | CREATED   | HIRE       | E1002    | salharbi       | department HR, groups all-staff, hr-users, payroll-readonly
+2026-11-01T12:05:37 | CREATED   | HIRE       | E1003    | malharbi       | department Finance, groups all-staff, erp-access, finance-users
+2026-11-01T12:05:37 | CREATED   | HIRE       | E1004    | nalsalm        | department HR, groups all-staff, hr-users, payroll-readonly
+2026-11-01T12:05:37 | CREATED   | HIRE       | E1005    | ahassan        | department IT, groups admin-tools, all-staff, it-staff, remote-access
+2026-11-01T12:05:37 | CREATED   | HIRE       | E1006    | ahassan2       | department Finance, groups all-staff, erp-access, finance-users (ahassan was taken)
+2026-11-01T12:05:37 | DEFERRED  | HIRE       | E1007    | -              | effective 2026-11-20 is after run date 2026-11-01
+2026-11-01T12:05:38 | SKIPPED   | HIRE       | E1001    | eghwiet        | already has an active account
+2026-11-01T12:05:38 | SKIPPED   | HIRE       | E1002    | salharbi       | already has an active account
+2026-11-01T12:05:38 | SKIPPED   | HIRE       | E1003    | malharbi       | already has an active account
+2026-11-01T12:05:38 | SKIPPED   | HIRE       | E1004    | nalsalm        | already has an active account
+2026-11-01T12:05:38 | SKIPPED   | HIRE       | E1005    | ahassan        | already has an active account
+2026-11-01T12:05:38 | SKIPPED   | HIRE       | E1006    | ahassan2       | already has an active account
+2026-11-01T12:05:38 | DEFERRED  | HIRE       | E1007    | -              | effective 2026-11-20 is after run date 2026-11-01
+2026-11-01T12:05:39 | UPDATED   | TRANSFER   | E1005    | ahassan        | moved IT -> Finance, groups all-staff, erp-access, finance-users
+2026-11-01T12:05:39 | DISABLED  | TERMINATE  | E1002    | salharbi       | groups removed, password invalidated
+2026-11-01T12:05:39 | SKIPPED   | HIRE       | E1001    | eghwiet        | already has an active account
+2026-11-01T12:05:39 | REJECTED  | TERMINATE  | E1099    | -              | no account exists for employee E1099
+2026-11-01T12:05:39 | DEFERRED  | HIRE       | E1007    | -              | effective 2026-11-20 is after run date 2026-11-15
+2026-11-01T12:05:41 | CREATED   | HIRE       | E2001    | okhaled        | department IT, groups admin-tools, all-staff, it-staff, remote-access
+2026-11-01T12:05:41 | REJECTED  | HIRE       | E2002    | -              | unknown department 'Legal' (policy knows: Finance, HR, IT, Sales)
+2026-11-01T12:05:41 | REJECTED  | HIRE       | E2003    | -              | effective_date '01/11/2026' is not in YYYY-MM-DD format
+2026-11-01T12:05:41 | REJECTED  | HIRE       | E2004    | -              | full_name is empty or longer than 80 characters
+2026-11-01T12:05:41 | REJECTED  | PROMOTE    | E2005    | -              | unknown event 'PROMOTE' (expected HIRE/TERMINATE/TRANSFER)
+2026-11-01T12:05:41 | REJECTED  | HIRE       | E        | -              | invalid employee_id 'E' (3-20 letters, digits or '-')
+2026-11-01T12:05:42 | SKIPPED   | TRANSFER   | E1005    | ahassan        | already in Finance
+2026-11-01T12:05:42 | SKIPPED   | TERMINATE  | E1002    | salharbi       | account already disabled
+2026-11-01T12:05:42 | SKIPPED   | HIRE       | E1001    | eghwiet        | already has an active account
+2026-11-01T12:05:42 | REJECTED  | TERMINATE  | E1099    | -              | no account exists for employee E1099
+2026-11-01T12:05:42 | CREATED   | HIRE       | E1007    | librahim       | department Sales, groups all-staff, crm-access, sales-users
+2026-11-01T12:05:42 | PURGE_DUE | PURGE      | -        | salharbi       | disabled longer than 30 days - run with --purge to delete
+2026-11-01T12:05:43 | SKIPPED   | TRANSFER   | E1005    | ahassan        | already in Finance
+2026-11-01T12:05:43 | SKIPPED   | TERMINATE  | E1002    | salharbi       | account already disabled
+2026-11-01T12:05:43 | SKIPPED   | HIRE       | E1001    | eghwiet        | already has an active account
+2026-11-01T12:05:43 | REJECTED  | TERMINATE  | E1099    | -              | no account exists for employee E1099
+2026-11-01T12:05:43 | SKIPPED   | HIRE       | E1007    | librahim       | already has an active account
+2026-11-01T12:05:43 | PURGED    | PURGE      | -        | salharbi       | disabled longer than 30 days
