@@ -1,6 +1,0 @@
-employee_id,full_name,department,event,effective_date,latin_name
-E1005,Ali Hassan,Finance,TRANSFER,2026-11-10,
-E1002,Sara Al-Harbi,HR,TERMINATE,2026-11-12,
-E1001,Elyas Ghwiet,IT,HIRE,2026-11-01,
-E1099,Unknown Person,IT,TERMINATE,2026-11-12,
-E1007,Layla Ibrahim,Sales,HIRE,2026-11-20,
