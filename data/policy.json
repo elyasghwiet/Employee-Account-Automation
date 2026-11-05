@@ -1,0 +1,10 @@
+{
+  "retention_days": 30,
+  "default_groups": ["all-staff"],
+  "departments": {
+    "IT": ["it-staff", "remote-access", "admin-tools"],
+    "HR": ["hr-users", "payroll-readonly"],
+    "Finance": ["finance-users", "erp-access"],
+    "Sales": ["sales-users", "crm-access"]
+  }
+}

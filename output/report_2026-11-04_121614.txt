@@ -1,0 +1,14 @@
+EMPLOYEE ACCOUNT AUTOMATION REPORT
+==================================
+Run date : 2026-11-04
+Mode     : APPLY
+HR file  : my_test.csv
+
+SUMMARY
+  SKIPPED    3
+
+DETAILS
+  line  employee  event      status    username       detail
+  2     E3001     HIRE       SKIPPED   mmusa          already has an active account
+  3     E3002     HIRE       SKIPPED   jsaleh         already has an active account
+  4     E3001     TRANSFER   SKIPPED   mmusa          already in Sales

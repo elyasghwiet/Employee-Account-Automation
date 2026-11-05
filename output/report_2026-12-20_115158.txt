@@ -1,0 +1,19 @@
+EMPLOYEE ACCOUNT AUTOMATION REPORT
+==================================
+Run date : 2026-12-20
+Mode     : APPLY
+HR file  : hr_day2.csv
+
+SUMMARY
+  PURGED     1
+  SKIPPED    4
+  REJECTED   1
+
+DETAILS
+  line  employee  event      status    username       detail
+  2     E1005     TRANSFER   SKIPPED   ahassan        already in Finance
+  3     E1002     TERMINATE  SKIPPED   salharbi       account already disabled
+  4     E1001     HIRE       SKIPPED   eghwiet        already has an active account
+  5     E1099     TERMINATE  REJECTED  -              no account exists for employee E1099
+  6     E1007     HIRE       SKIPPED   librahim       already has an active account
+  -     -         PURGE      PURGED    salharbi       disabled longer than 30 days

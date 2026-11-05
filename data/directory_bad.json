@@ -1,0 +1,21 @@
+{
+  "users": {
+    "okhaled": {
+      "created": "2026-11-01",
+      "department": "IT",
+      "disabled_on": null,
+      "employee_id": "E2001",
+      "full_name": "Omar Khaled",
+      "groups": [
+        "admin-tools",
+        "all-staff",
+        "it-staff",
+        "remote-access"
+      ],
+      "must_change_password": true,
+      "password_hash": "pbkdf2_sha256$200000$17e2f6409a6c8c9e$19eb5417ee3d37e5d0b1c595f39c44b77535161f89ae8ddebdeead1200893cb0",
+      "status": "active"
+    }
+  },
+  "version": 1
+}

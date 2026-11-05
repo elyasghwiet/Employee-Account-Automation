@@ -1,0 +1,18 @@
+EMPLOYEE ACCOUNT AUTOMATION REPORT
+==================================
+Run date : 2026-11-01
+Mode     : APPLY
+HR file  : hr_bad.csv
+
+SUMMARY
+  CREATED    1
+  REJECTED   5
+
+DETAILS
+  line  employee  event      status    username       detail
+  2     E2001     HIRE       CREATED   okhaled        department IT, groups admin-tools, all-staff, it-staff, remote-access
+  3     E2002     HIRE       REJECTED  -              unknown department 'Legal' (policy knows: Finance, HR, IT, Sales)
+  4     E2003     HIRE       REJECTED  -              effective_date '01/11/2026' is not in YYYY-MM-DD format
+  5     E2004     HIRE       REJECTED  -              full_name is empty or longer than 80 characters
+  6     E2005     PROMOTE    REJECTED  -              unknown event 'PROMOTE' (expected HIRE/TERMINATE/TRANSFER)
+  7     E         HIRE       REJECTED  -              invalid employee_id 'E' (3-20 letters, digits or '-')

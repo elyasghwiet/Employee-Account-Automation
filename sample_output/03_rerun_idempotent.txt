@@ -1,0 +1,21 @@
+
+EMPLOYEE ACCOUNT AUTOMATION REPORT
+==================================
+Run date : 2026-11-01
+Mode     : APPLY
+HR file  : hr_day1.csv
+
+SUMMARY
+  SKIPPED    6
+  DEFERRED   1
+
+DETAILS
+  line  employee  event      status    username       detail
+  2     E1001     HIRE       SKIPPED   eghwiet        already has an active account
+  3     E1002     HIRE       SKIPPED   salharbi       already has an active account
+  4     E1003     HIRE       SKIPPED   malharbi       already has an active account
+  5     E1004     HIRE       SKIPPED   nalsalm        already has an active account
+  6     E1005     HIRE       SKIPPED   ahassan        already has an active account
+  7     E1006     HIRE       SKIPPED   ahassan2       already has an active account
+  8     E1007     HIRE       DEFERRED  -              effective 2026-11-20 is after run date 2026-11-01
+
